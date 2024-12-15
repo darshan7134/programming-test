@@ -19,7 +19,7 @@ def generate_odd_series(a: int) -> str:
 
     return ', '.join(odd_numbers)
 
-# Example usage:
+
 if __name__ == "__main__":
     a = int(input("Enter a positive integer: "))
     result = generate_odd_series(a)
