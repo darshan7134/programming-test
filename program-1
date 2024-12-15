@@ -30,7 +30,6 @@ class Calculator:
             raise ValueError("Cannot divide by zero.")
         return self.a / self.b
 
-# Example usage:
 if __name__ == "__main__":
     a = 20.0
     b = 5.0
